@@ -12,6 +12,7 @@
     "url": "https://github.com/jackyzha0/quartz.git"
   },
   "scripts": {
+    "build": "quartz build"
     "quartz": "./quartz/bootstrap-cli.mjs",
     "docs": "npx quartz build --serve -d docs",
     "check": "tsc --noEmit && npx prettier . --check",
@@ -35,6 +36,7 @@
     "quartz": "./quartz/bootstrap-cli.mjs"
   },
   "dependencies": {
+    
     "@clack/prompts": "^0.7.0",
     "@floating-ui/dom": "^1.6.11",
     "@napi-rs/simple-git": "0.1.19",
@@ -95,6 +97,7 @@
     "yargs": "^17.7.2"
   },
   "devDependencies": {
+    "quartz": "latest"
     "@types/cli-spinner": "^0.2.3",
     "@types/d3": "^7.4.3",
     "@types/hast": "^3.0.4",
