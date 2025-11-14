@@ -1,9 +1,5 @@
 ---
-title: My GitHub Pages Notebook!
+title: preach.es
 ---
 
-Hello world!
-
-Write some words here!
-
-test
+Under construction. :^)
